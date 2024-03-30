@@ -1,6 +1,6 @@
 package Sum;
 
-public class SumOfNaturalNumbers {
+public class NaturalNumbers {
     public static void main(String[] args) {
         int sum = 0;
         int n = 100;
