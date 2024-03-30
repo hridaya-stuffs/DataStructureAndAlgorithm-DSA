@@ -16,5 +16,6 @@ public class ArraySort {
             System.out.print(" " + arr[i]);
         }
         System.out.println();
+        System.out.println("The second largest element is: " + arr[arr.length - 2]);
     }
 }
