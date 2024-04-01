@@ -5,10 +5,9 @@ public class ArraySort {
         int[] arr = {6, 4, 9, 6, 3, 2, 0};
         System.out.print("Elements after sorting:");
         for (int i = 0; i < arr.length; i++) {
-            int temp = 0;
-            for (int j = i + 1; j < arr.length - 1; j++) {
+            for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] > arr[j]) {
-                    temp = arr[i];
+                    int temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
                 }
